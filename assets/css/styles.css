@@ -73,9 +73,49 @@ body {
   color: var(--text-color);
   transition: background-color .4s;
 }
+.loader{
+    background-color: var(--container-color);
+    background-size: 10%;
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 110;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* the previous three props make sure the loader is in center */
+    transition: opacity 0.75s, visibility 0.75s;
+    
+}
 
-
-
+.loader--hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+.loader::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border: 10px solid var(--container-color);
+    border-top-color: var(--first-color);
+    border-bottom-color: var(--first-color);
+    border-right-color: var(--first-color);
+    border-radius: 50%;
+    animation: loading 0.75s ease infinite;
+  }
+  
+  @keyframes loading {
+    from {
+      transform: rotate(0turn);
+    }
+    to {
+      transform: rotate(1turn);
+    }
+  }
+  
 
 h1, h2, h3, h4 {
   color: var(--title-color);
@@ -1324,4 +1364,6 @@ body.dark-theme{
     right: 3rem;
 }
 }
+
+
 
