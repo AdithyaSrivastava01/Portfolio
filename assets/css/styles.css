@@ -696,6 +696,7 @@ body.dark-theme{
 .projects__card{
     padding: 1rem 1rem 2rem;
     transition: background-color .4s;
+    height: 100%;
     
 }
 
@@ -1281,12 +1282,16 @@ body.dark-theme{
 }
 
 .contact__data .section__title-2{
-    margin: 0 0 2rem;
+    margin: 0 0 0.5rem;
     transform: translateX(-4.5rem);
 }
 .contact__data .section__title-2::after{
     top:-4.5px;
     right:-10px;
+}
+.contact__description-1,
+.contact__description-2{
+    font-size: 0.75rem;
 }
 .contact__message{
     bottom: -9.5rem;
@@ -1609,12 +1614,16 @@ body.dark-theme{
 }
 
 .contact__data .section__title-2{
-    margin: 0 0 2rem;
+    margin: 0 0 1.25rem;
     transform: translateX(-6.5rem);
 }
 .contact__data .section__title-2::after{
     top:-6px;
     right:-25px;
+}
+.contact__description-1,
+.contact__description-2{
+    font-size: 1rem;
 }
 .contact__message{
     bottom: -2.5rem;
