@@ -140,7 +140,7 @@ const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
     duration: 2500,
-    delay: 400,
+    delay: 150,
 })
 
 sr.reveal(`.home__profile, .about__image, .contact__mail`,{origin:'right'})
