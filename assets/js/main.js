@@ -139,8 +139,8 @@ themeButton.addEventListener('click',()=>{
 const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
-    duration: 2500,
-    delay: 150,
+    duration: 1250,
+    delay: 250,
 })
 
 sr.reveal(`.home__profile, .about__image, .contact__mail`,{origin:'right'})
