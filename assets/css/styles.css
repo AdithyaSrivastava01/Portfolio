@@ -1478,14 +1478,14 @@ body.dark-theme{
 }
 .home__arrow{
     top: 4.5rem;
-    left: -8rem;
-    rotate: 80deg;
+    left: -6rem;
+    rotate: 85deg;
     width: 80px;
 
 }
 
 .home__line{
-    left: -15rem;
+    left: -7rem;
     bottom: 4rem;
     width: 80px;
     rotate: 30deg;
